@@ -1,3 +1,71 @@
-* {
-    
+*{
+    font-family: 'Roboto', sans-serif;
 }
+h1, h2 {
+    color: #3c9393; /*цвет шрифта*/
+    font-size: 30pt; /*размер*/
+    font-weight: 300; /*толщина*/
+    letter-spacing: 15px; /*расстояние между букв*/
+    line-height: 150px; /*отступ между строк*/
+    text-align: center; /*выравнивание*/
+    word-spacing: 60px; /*расстояние между словами*/
+    white-space: pre-line; /*убрать лишние пробелы*/
+}
+p {
+    width: 80ch; /*ширина в символах*/
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 75px;
+    margin-right: 75px;
+    max-height: 100ch;
+    padding: 40px;
+}
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 19px 64px;
+    color: #fff;
+    font-size: 18px;
+    background: #6632ac;
+    border-radius: 6px;
+}
+
+.circle {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    border: 64px solid #FF055E;
+    border-radius: 50%;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.circle:visited {
+    border: 64px solid #3e3eb9;
+    background: #fff;
+    transform: scale(1.1);
+}
+
+.circle:hover {
+    border: 64px solid #7cc922;
+    background: #fff;
+    transform: scale(1.1);
+}
+
+.circle:active {
+    border: 64px solid #000;
+    background: #fff;
+    transform: scale(1.1);
+}
+
+.button3 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 28px 87px;
+    color: #fff;
+    background: #236AD6;
+    font-size: 24px;
+    border-radius: 50px;
+}
+
+
