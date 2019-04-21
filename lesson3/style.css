@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.conteiner{
+    padding: 25px 32px 37px 16px;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25)
+}
+
+.secodaryr-text{
+    font-size: 14 px;
+    color: rgba(255,5,94,0.5);
+    margin-bottom: 11px;
+}
+
+.main-text{
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 64px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.bButton{
+    color: green;
+    font-size: 48px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.logo img{
+    width: 100%;
+    height: auto;
+}
+
+.hero{
+    background: url('https://www.nastol.com.ua/pic/201804/1920x1200/nastol.com.ua-277534.jpg');
+    height: 50vh;
+    background-size: cover;
+    width: 100%;
+}
+
+.hero h1{
+    font-size: 150px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: darkgreen;
+    padding-top: 100px;
+}
+
+.main{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .container{
+    flex-basis: 900px;
+    min-width: 700px;
+}
+
+.sidebar{
+    width: 500px;
+    padding: 25px 32px 37px 16px;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    flex-basis: 350px;
+    margin-right: 20px;
+}
+
+.sidebar h2{
+    margin-bottom: 20px;
+}
+
+.sidebar ul li{
+    list-style: none;
+    margin: 20px;
+}
+
+.sidebar ul{
+    display: flex;
+    margin: -20px;
+    flex-direction: column;
+    
+}
+
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    margin: -142px;
+}
+
+.product{
+    padding: 25px 24px 37px 24px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    margin: 142px;
+}
+
+.foto img{
+    width: 150px;
+    height: 100px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    text-decoration: none;
+    padding: 
+}
+
